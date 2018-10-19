@@ -25,9 +25,12 @@
     <?php
       include_once("navbar.php");
     ?>
-    <h1>Dataset:MIMIC-III or eICU</h1>
     
-    <h2>Team</h2>
+    <h1>Topic: Carditis(心肌炎，Myocarditis) machine learning prediction</a></h1>
+    
+    <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quanat</a></h2>
+    
+    <h2>Team Members: </h2>
     <table border=1>
       <tr>
         <th>English name</th>
@@ -39,21 +42,22 @@
       <tr>
         <td><a href="https://chuangtc.com" target="_blank">Jason Chuang</a> </td>
         <td><a href="https://chuangtc.com" target="_blank">莊子政 </a></td>
-        <td><a href="https://ai4quant.com" target="_blank">AI4quant</a> founder and CEO</td>
-        <td>coding & data analysis</td>
+        <td><a href="https://ai4quant.com" target="_blank">AI4quant</a> Founder and CEO</td>
+        <td>coding & Data analysis</td>
+      </tr>
+      <tr>
+        <td>John Yang </td>
+        <td>楊宗翰 </td>
+        <td><a href="http://www.encorphin.com/">安可啡(Encorphin)</a>Co-founder</td>
+        <td>coding & SQL data preparation</td>
       </tr>
       <tr>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">Kevin Chang </a></td>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">張愷珉 </td>
         <td><a href="http://www.megalive.com.tw/#">美佳數位</a>App工程師</td>
-        <td>coding & app development</td>
+        <td>coding & App development</td>
       </tr>
-      <tr>
-        <td>John Yang </td>
-        <td>楊宗翰 </td>
-        <td><a href="http://pharmschool.tmu.edu.tw/main.php" target="_blank">台北醫學大學藥學系</a>畢業生&新創 </td>
-        <td>coding & SQL data preparation</td>
-      </tr>
+      
 
       <tr>
         <td><a href="http://www.epochtimes.com/b5/15/2/25/n4374047.htm" target="_blank">Juien Lo </a></td>
@@ -69,8 +73,10 @@
       </tr>
       
     </table>
-  </div>	<!-- End of Wrap all page content -->
-	
+  
+  <br/>
+  <h3>Dataset:MIMIC-III or eICU</h3>
+
   <br/>
   <h2>Hackathon duration</h2>
   2018-10-19~2018-10-21
@@ -82,5 +88,8 @@
   <?php
       include_once("footer.php");
   ?>  
+  
+  </div>	<!-- End of Wrap all page content -->
+	 
   </body>
 </html>     
