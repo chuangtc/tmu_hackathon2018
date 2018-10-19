@@ -26,9 +26,9 @@
       include_once("navbar.php");
     ?>
     
-    <h1>Topic: Carditis(心肌炎，Myocarditis) machine learning prediction</a></h1>
+    <h1>Topic: Real-time ICU scoring alert system</a></h1>
     
-    <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quanat</a></h2>
+    <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quant</a></h2>
     
     <h2>Team Members: </h2>
     <table border=1>
@@ -49,7 +49,7 @@
         <td>John Yang </td>
         <td>楊宗翰 </td>
         <td><a href="http://www.encorphin.com/">安可啡(Encorphin)</a>Co-founder</td>
-        <td>coding & SQL data preparation</td>
+        <td>醫學知識提供</td>
       </tr>
       <tr>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">Kevin Chang </a></td>

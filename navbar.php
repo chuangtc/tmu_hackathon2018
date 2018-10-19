@@ -38,6 +38,12 @@
           ICU-web
         </a>
         <div class="dropdown-menu">
+          <a class="dropdown-item" href="icuweb.php?ts=0800">Timestamp:0800</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0810">Timestamp:0810</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0820">Timestamp:0820</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0830">Timestamp:0830</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0840">Timestamp:0840</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0850">Timestamp:0850</a>
           <a class="dropdown-item" href="icuweb.php?ts=0900">Timestamp:0900</a>
           <a class="dropdown-item" href="icuweb.php?ts=0910">Timestamp:0910</a>
           <a class="dropdown-item" href="icuweb.php?ts=0920">Timestamp:0920</a>
@@ -49,6 +55,9 @@
 
         </div>
       </li>
+      
+      
+
       <!--li class="nav-item">
         <a class="nav-link disabled" href="#">Pricing</a>
       </li-->
