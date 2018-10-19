@@ -26,7 +26,7 @@
       include_once("navbar.php");
     ?>
     
-    <h1>Topic: Real-time ICU scoring alert system</a></h1>
+    <h1>Topic: ICU real-time monitoring and alert system</a></h1>
     
     <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quant</a></h2>
     
@@ -66,16 +66,16 @@
         <td>coding </td>
       </tr>
       <tr>
-        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_balnk">Chung-Min Shen </a></td>
-        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_balnk">沈仲敏</a> </td>
+        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_blank">Chung-Min Shen </a></td>
+        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_blank">沈仲敏</a> </td>
         <td><a href="https://www.cgh.org.tw/tw/content/depart/D100/">國泰醫院小兒科</a>主任</td>
-        <td>提供醫學臨床建議，題目發想</td>
+        <td>提供臨床醫學建議，題目發想</td>
       </tr>
       
     </table>
   
   <br/>
-  <h3>Dataset:MIMIC-III or eICU</h3>
+  <h3>Dataset:<a href="https://mimic.physionet.org/" target="_blank">MIMIC-III</a></h3>
 
   <br/>
   <h2>Hackathon duration</h2>

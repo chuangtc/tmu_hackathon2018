@@ -35,23 +35,17 @@
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="icuweb.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          ICU-web
+          ICU-monitoring
         </a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="icuweb.php?ts=0800">Timestamp:0800</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0810">Timestamp:0810</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0820">Timestamp:0820</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0830">Timestamp:0830</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0840">Timestamp:0840</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0850">Timestamp:0850</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0900">Timestamp:0900</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0910">Timestamp:0910</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0920">Timestamp:0920</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0930">Timestamp:0930</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0940">Timestamp:0940</a>
-          <a class="dropdown-item" href="icuweb.php?ts=0950">Timestamp:0950</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0200">Timestamp:0200</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0210">Timestamp:0210</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0220">Timestamp:0220</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0230">Timestamp:0230</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0240">Timestamp:0240</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0250">Timestamp:0250</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Final</a>
+          <a class="dropdown-item" href="icuweb.php?ts=0300">Alerting:0300</a>
 
         </div>
       </li>
