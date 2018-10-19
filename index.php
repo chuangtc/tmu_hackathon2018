@@ -46,8 +46,15 @@
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">Kevin Chang </a></td>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">張愷珉 </td>
         <td><a href="http://www.megalive.com.tw/#">美佳數位</a>App工程師</td>
-        <td>coding </td>
+        <td>coding & app development</td>
       </tr>
+      <tr>
+        <td>John Yang </td>
+        <td>楊宗翰 </td>
+        <td><a href="http://pharmschool.tmu.edu.tw/main.php" target="_blank">台北醫學大學藥學系</a>畢業生&新創 </td>
+        <td>coding & SQL data preparation</td>
+      </tr>
+
       <tr>
         <td><a href="http://www.epochtimes.com/b5/15/2/25/n4374047.htm" target="_blank">Juien Lo </a></td>
         <td><a href="http://www.epochtimes.com/b5/15/2/25/n4374047.htm" target="_blank">羅瑞恩 </a></td>
@@ -55,16 +62,10 @@
         <td>coding </td>
       </tr>
       <tr>
-        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_balnk">Shen </a></td>
+        <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_balnk">Chung-Min Shen </a></td>
         <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_balnk">沈仲敏</a> </td>
         <td><a href="https://www.cgh.org.tw/tw/content/depart/D100/">國泰醫院小兒科</a>主任</td>
-        <td>提供醫學建議</td>
-      </tr>
-      <tr>
-        <td>John Yang </td>
-        <td>楊宗翰 </td>
-        <td>藥學系畢業生 </td>
-        <td>提供藥劑建議</td>
+        <td>提供醫學臨床建議，題目發想</td>
       </tr>
       
     </table>
