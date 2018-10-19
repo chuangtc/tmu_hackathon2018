@@ -75,7 +75,7 @@
   2018-10-19~2018-10-21
   
   <br/><br/>
-  <h2>TMU MIT Hackthon 2018 website</h2>
+  <h2>TMU MIT Hackathon 2018 website</h2>
   <a href="http://hack.tmu.edu.tw/2018.php" target="_blank">http://hack.tmu.edu.tw/2018.php</a>  
     
   <?php
