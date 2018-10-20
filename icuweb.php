@@ -27,9 +27,9 @@
         include_once("navbar.php");
       ?>
       
-      <div class="container text-monospace  mx-auto">
+      <div class="container ">
       
-        <div class="row mx-auto">
+        <div class="row">
           <div class="h4 mb-5 mt-5 text-monospace" style="color: gray; transform: scale(.9, 1)">
             ICU-Monitoring: 2018-10-21 Sunday
             <?php
@@ -37,37 +37,36 @@
             ?>
           </div>
         </div>
-
-          <div class="mb-4 card-deck">
-            <div class="col">
-              <div class="card bg-light w-40 border-danger" style="border-width:3px">
-                <div class="card-header text-danger">ICU 1</div>
+        <div class="row">
+          
+            <div class="col-md-4 col-xs-6 card bg-light w-40 border-danger" style="border-width:3px">
+              <div class="card-header text-danger">ICU 1</div>
                 <div class="card-body">
                   <p class="card-title text-danger">Score: 7</p>
                   <p>II
-                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ECG_chart" /></p>
                   <table class="table mt-2 mb-0">
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">172</p></td>
+                        <td><p class="mb-0 text-success">80</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">98</p></td>
+                        <td><p class="mb-0 text-info">90</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">168</p></td>
+                        <td><p class="mb-0 text-danger">14</p></td>
                       </tr>
                     </tbody>
                   </table>
                   <p class="card-text mt-2">NO ARRHYTHMIA.</p>
                 </div>
-              </div>
+              
             </div>
 
-            <div class="col">
+            <div class="col-md-4 col-xs-6 card bg-light">
               <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 2</div>
                 <div class="card-body">
@@ -94,9 +93,9 @@
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div class="card  bg-light w-40 card border-success">
+            
+            <div class="col-md-4 col-xs-6 card bg-light">
+              <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 3</div>
                 <div class="card-body">
                   <p class="card-title">Score: 1</p>
@@ -106,15 +105,15 @@
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">164</p></td>
+                        <td><p class="mb-0 text-success">190</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">90</p></td>
+                        <td><p class="mb-0 text-info">92</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">168</p></td>
+                        <td><p class="mb-0 text-danger">188</p></td>
                       </tr>
                     </tbody>
                   </table>
@@ -122,29 +121,56 @@
                 </div>
               </div>
             </div>
-          </div>
 
-          <div class="mb-4 card-deck mb-15">
-            <div class="col">
+            <div class="col-md-4 col-xs-6 card bg-light">
               <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 4</div>
                 <div class="card-body">
-                  <p class="card-title">Score: 2</p>
+                  <p class="card-title">Score: 1</p>
                   <p>II
                   <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">172</p></td>
+                        <td><p class="mb-0 text-success">190</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">98</p></td>
+                        <td><p class="mb-0 text-info">92</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">168</p></td>
+                        <td><p class="mb-0 text-danger">188</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="card-text mt-2">NO ARRHYTHMIA.</p>
+                </div>
+              </div>
+            </div>
+          
+
+          <div class="col-md-4 col-xs-6 card bg-light">
+              <div class="card bg-light w-40 card border-success">
+                <div class="card-header">ICU 5</div>
+                <div class="card-body">
+                  <p class="card-title">Score: 1</p>
+                  <p>II
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
+                  <table class="table  mt-2 mb-0">
+                    <tbody>
+                      <tr>
+                        <td><p class="mb-0 text-success">HR</p></td>
+                        <td><p class="mb-0 text-success">190</p></td>
+                      </tr>
+                      <tr>
+                        <td><p class="mb-0 text-info">SpO2</p></td>
+                        <td><p class="mb-0 text-info">92</p></td>
+                      </tr>
+                      <tr>
+                        <td><p class="mb-0 text-danger">RR</p></td>
+                        <td><p class="mb-0 text-danger">188</p></td>
                       </tr>
                     </tbody>
                   </table>
@@ -154,54 +180,26 @@
             </div>
 
           
-            <div class="col">
-              <div class="card bg-light w-40 card border-success">
-                <div class="card-header">ICU 5</div>
-                <div class="card-body">
-                  <p class="card-title">Score: 7</p>
-                  <p>II
-                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
-                  <table class="table  mt-2 mb-0">
-                    <tbody>
-                      <tr>
-                        <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">172</p></td>
-                      </tr>
-                      <tr>
-                        <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">98</p></td>
-                      </tr>
-                      <tr>
-                        <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">168</p></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p class="card-text mt-2">NO ARRHYTHMIA.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col">
+            <div class="col-md-4 col-xs-6 card bg-light">
               <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 6</div>
                 <div class="card-body">
-                  <p class="card-title">Score: 7</p>
+                  <p class="card-title">Score: 1</p>
                   <p>II
                   <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">172</p></td>
+                        <td><p class="mb-0 text-success">190</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">98</p></td>
+                        <td><p class="mb-0 text-info">92</p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">168</p></td>
+                        <td><p class="mb-0 text-danger">188</p></td>
                       </tr>
                     </tbody>
                   </table>
