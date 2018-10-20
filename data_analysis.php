@@ -25,7 +25,21 @@
     <?php
       include_once("navbar.php");
     ?>
-    data analysis
+    <div id="container">
+      <div id="row">
+        <h3>MIMIC-III dataset statistics</h3>    
+      </div>
+      
+      <div id="row">
+         Statistics<br/>
+         <img src="img/mimic3_icu_stats.jpg" alt="mimic3_icu_stats.jpg"/>
+      </div>
+      <div id="row">
+         Histogram<br/>
+         <img src="img/mimic3_icu_hist.png" alt="mimic3_icu_hist.png"/>
+        
+      </div>
+    </div>
   </div>	<!-- End of Wrap all page content -->
 	
     

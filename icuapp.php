@@ -27,12 +27,9 @@
     ?>
     
     
-    <h1>ICU-app</h1>
+    <h3>ICU-app ScreenShot</h3>
     
-    <h2>ICU-app description</h2>
-    <h2>ICU-app Github source code</h2>
-
-    <h2>ICU-app screenshot</h2>
+    <img src='img/App_Screenshot_20181020.jpg' width=300/>
     
     
   </div>	<!-- End of Wrap all page content -->

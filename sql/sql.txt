@@ -1,0 +1,11 @@
+CREATE database tmu_hack2018;
+CREATE USER 'tmu_hack'@'localhost' IDENTIFIED BY 'tmu_hack';
+GRANT ALL PRIVILEGES ON tmu_hack2018.* TO 'tmu_hack'@'localhost';
+
+
+USE tmu_hack2018;
+CREATE TABLE IF NOT EXISTS tmu_hack2018.log_tbl(
+  log_id BIGINT PRIMARY KEY AUTO_INCREMENT ,
+  sim_ts varchar(32),
+  cre_timestamp  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);

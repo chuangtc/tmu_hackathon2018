@@ -12,13 +12,55 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<?php
+$wait_sec=2;
+$next_ts='0300';
+$auto_refresh=0;
+if (htmlspecialchars($_GET["ts"]=='0200')){
+    $next_ts='0210';
+    $auto_refresh=1;
+}
+elseif (htmlspecialchars($_GET["ts"]=='0210')){
+    $next_ts='0220';
+    $auto_refresh=1;
+}
+elseif (htmlspecialchars($_GET["ts"]=='0220')){
+    $next_ts='0230';
+    $auto_refresh=1;
+}
+elseif (htmlspecialchars($_GET["ts"]=='0230')){
+    $next_ts='0240';
+    $auto_refresh=1;
+}
+elseif (htmlspecialchars($_GET["ts"]=='0240')){
+    $next_ts='0250';
+    $auto_refresh=1;
+}
+elseif (htmlspecialchars($_GET["ts"]=='0250')){
+    $next_ts='0300';
+    $auto_refresh=1;
+}
+if($auto_refresh==1){
+  $stmp='<meta http-equiv="refresh" content="';
+  $stmp.= $wait_sec;
+  $stmp.= '; URL=icuweb.php?ts=';
+  $stmp.=$next_ts;
+  $stmp.='" />';
+  
+  echo $stmp;
+  
+}
+  
+  
+?>
+
+        
         <link rel="manifest" href="site.webmanifest">
         <!--link rel="apple-touch-icon" href="/static/favicon.png">
         <link rel="shortcut icon" href="/static/favicon.ico"-->
     </head>
     <style>
     </style>
-
     <body class="bg-light" style="font-family: Futura,Trebuchet MS,Arial,sans-serif;">
     <!-- Wrap all page content here -->
 
@@ -28,6 +70,36 @@
       ?>
       
       <div class="container ">
+      
+        <?php
+
+require_once('mysql_config.php');
+
+
+$alert_diagram_length=10;  
+
+// Connects to your Database
+$conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_database);
+/* check connection */
+if ($conn->connect_errno) {
+    printf("Connect failed: %s\n", $conn->connect_error);
+    exit();
+}
+$conn->set_charset("utf8");
+$query = "INSERT INTO tmu_hack2018.log_tbl (sim_ts) VALUES('";
+$query = $query . htmlspecialchars($_GET["ts"]);
+$query = $query . "');";
+//echo ' ' . $query ;
+// Attempt insert query execution
+if(mysqli_query($conn, $query)){
+    //echo "Records inserted successfully.";
+} else{
+    echo "ERROR: Could not execute $query. " . mysqli_error($conn);
+}
+
+// Close the connection
+mysqli_close ($conn);        
+?>
       
         <div class="row">
           <div class="h4 mb-5 mt-5 text-monospace" style="color: gray; transform: scale(.9, 1)">
@@ -39,10 +111,27 @@
         </div>
         <div class="row">
           
-            <div class="col-md-4 col-xs-6 card bg-light w-40 border-danger" style="border-width:3px">
-              <div class="card-header text-danger">ICU 1</div>
+            <?php
+              if(htmlspecialchars($_GET["ts"])=='0300'){
+                echo '<div class="col-md-4 col-xs-6 card bg-light w-40 border-danger" style="border-width:3px">';
+                echo '<div class="card-header text-danger">ICU 1</div>';
+              }
+              else{
+                echo '<div class="col-md-4 col-xs-6 card bg-light border-success">';
+                echo '<div class="card-header">ICU 1</div>';
+              }
+            ?>          
+            
                 <div class="card-body">
-                  <p class="card-title text-danger">Score: 7</p>
+                  <?php
+                    if(htmlspecialchars($_GET["ts"])=='0300'){
+                      echo '<p class="card-title text-danger">Score: 9</p>';
+                    }
+                    else{
+                      echo '<p class="card-title">Score: 1</p>';
+                    }
+                  ?>                  
+                  
                   <p>II
                   <img src="img/EKG.png" style="width:100%" alt="ECG_chart" /></p>
                   <table class="table mt-2 mb-0">

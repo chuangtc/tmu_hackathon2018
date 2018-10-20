@@ -26,7 +26,8 @@
       include_once("navbar.php");
     ?>
     
-    <h1>Topic: ICU real-time monitoring and alert system</a></h1>
+    <h1>Topic: Save Me Earlier System</h1>
+    Real-time  Monitoring and Alert System in ICU
     
     <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quant</a></h2>
     
@@ -82,7 +83,7 @@
   2018-10-19~2018-10-21
   
   <br/><br/>
-  <h2>TMU MIT Hackathon 2018 website</h2>
+  <h2>TMU x MIT Hackathon 2018 website</h2>
   <a href="http://hack.tmu.edu.tw/2018.php" target="_blank">http://hack.tmu.edu.tw/2018.php</a>  
     
   <?php

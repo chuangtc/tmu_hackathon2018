@@ -1,0 +1,1 @@
+SELECT (CURRENT_TIMESTAMP() - max(cre_timestamp) ) as magic_num FROM tmu_hack2018.`log_tbl`  WHERE sim_ts='0300';
