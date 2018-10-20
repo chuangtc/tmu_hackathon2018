@@ -26,8 +26,9 @@
       include_once("navbar.php");
     ?>
     
-    <h1>Topic: Save Me Earlier System</h1>
-    Real-time  Monitoring and Alert System in ICU
+    <img src="img/save_me_earlier.png" style = "width: 95%;" alt="save_me_earlier.png"/>
+    <!--h1>Save Me Earlier System</h1-->
+    Continuous real-time mortality prediction monitoring system in ICU
     
     <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quant</a></h2>
     
@@ -44,19 +45,19 @@
         <td><a href="https://chuangtc.com" target="_blank">Jason Chuang</a> </td>
         <td><a href="https://chuangtc.com" target="_blank">莊子政 </a></td>
         <td><a href="https://ai4quant.com" target="_blank">AI4quant</a> Founder and CEO</td>
-        <td>coding & Data analysis</td>
+        <td>Coding & Data Analysis</td>
       </tr>
       <tr>
         <td>John Yang </td>
         <td>楊宗翰 </td>
         <td><a href="http://www.encorphin.com/">安可啡(Encorphin)</a>Co-founder</td>
-        <td>醫學知識提供</td>
+        <td>提供醫學知識 & Slides</td>
       </tr>
       <tr>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">Kevin Chang </a></td>
         <td><a href="https://www.cakeresume.com/chile109" target="_blank">張愷珉 </td>
         <td><a href="http://www.megalive.com.tw/#">美佳數位</a>App工程師</td>
-        <td>coding & App development</td>
+        <td>Coding & App Development</td>
       </tr>
       
 
@@ -64,12 +65,12 @@
         <td><a href="http://www.epochtimes.com/b5/15/2/25/n4374047.htm" target="_blank">Juien Lo </a></td>
         <td><a href="http://www.epochtimes.com/b5/15/2/25/n4374047.htm" target="_blank">羅瑞恩 </a></td>
         <td><a href="https://www.mc.ntu.edu.tw/med/Index.action" target="_blank">台大醫學系</a>大四生雙主修<a href="https://www.csie.ntu.edu.tw/" target="_blank">資工系</a></td>
-        <td>coding </td>
+        <td>Coding </td>
       </tr>
       <tr>
         <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_blank">Chung-Min Shen </a></td>
         <td><a href="https://www.cgh.org.tw/tw/content/doctor/09218a.html" target="_blank">沈仲敏</a> </td>
-        <td><a href="https://www.cgh.org.tw/tw/content/depart/D100/">國泰醫院小兒科</a>主任</td>
+        <td><a href="https://www.cgh.org.tw/tw/content/depart/D100/" target="_blank">國泰醫院小兒科</a>主任</td>
         <td>提供臨床醫學建議，題目發想</td>
       </tr>
       

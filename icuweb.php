@@ -114,16 +114,21 @@ mysqli_close ($conn);
             <?php
               if(htmlspecialchars($_GET["ts"])=='0300'){
                 echo '<div class="col-md-4 col-xs-6 card bg-light w-40 border-danger" style="border-width:3px">';
+                echo '<div >';
+
                 echo '<div class="card-header text-danger">ICU 1</div>';
               }
               else{
-                echo '<div class="col-md-4 col-xs-6 card bg-light border-success">';
+                
+                echo '<div class="col-md-4 col-xs-6 card bg-light">';
+                echo '<div class="card bg-light w-40 card border-success">';
                 echo '<div class="card-header">ICU 1</div>';
               }
             ?>          
             
                 <div class="card-body">
                   <?php
+                    //echo '->'.rand(10,100);
                     if(htmlspecialchars($_GET["ts"])=='0300'){
                       echo '<p class="card-title text-danger">Score: 9</p>';
                     }
@@ -138,43 +143,70 @@ mysqli_close ($conn);
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">80</p></td>
+                        <td><p class="mb-0 text-success">
+                        <?php
+                          if(htmlspecialchars($_GET["ts"])=='0300'){
+                            echo '40';
+                          }
+                          else{
+                            echo ''.rand(51,90);
+                          }
+                        ?>
+                        </p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">90</p></td>
+                        <td><p class="mb-0 text-info">
+                        <?php
+                          if(htmlspecialchars($_GET["ts"])=='0300'){
+                            echo '83';
+                          }
+                          else{
+                            echo ''.rand(88,92);
+                          }
+                        ?>
+                        </p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">14</p></td>
+                        <td><p class="mb-0 text-danger">
+                        <?php
+                          if(htmlspecialchars($_GET["ts"])=='0300'){
+                            echo '7';
+                          }
+                          else{
+                            echo ''.rand(12,20);
+                          }
+                        ?>
+                        </p></td>
                       </tr>
                     </tbody>
                   </table>
                   <p class="card-text mt-2">NO ARRHYTHMIA.</p>
                 </div>
-              
+              </div>
             </div>
 
             <div class="col-md-4 col-xs-6 card bg-light">
               <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 2</div>
                 <div class="card-body">
-                  <p class="card-title">Score: 2</p>
+                  <p class="card-title">Score: <?php echo ''.rand(0,2) ?></p>
                   <p>II
                   <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">190</p></td>
+                        <td><p class="mb-0 text-success"><?php echo ''.rand(51,90) ?></p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">92</p></td>
+                        <td><p class="mb-0 text-info"><?php echo ''.rand(88,92) ?></p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">188</p></td>
+                        <td><p class="mb-0 text-danger"><?php echo ''.rand(12,20) ?></p></td>
                       </tr>
                     </tbody>
                   </table>
@@ -187,22 +219,22 @@ mysqli_close ($conn);
               <div class="card bg-light w-40 card border-success">
                 <div class="card-header">ICU 3</div>
                 <div class="card-body">
-                  <p class="card-title">Score: 1</p>
+                  <p class="card-title">Score: <?php echo ''.rand(0,2) ?></p>
                   <p>II
                   <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
                         <td><p class="mb-0 text-success">HR</p></td>
-                        <td><p class="mb-0 text-success">190</p></td>
+                        <td><p class="mb-0 text-success"><?php echo ''.rand(51,90) ?></p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-info">SpO2</p></td>
-                        <td><p class="mb-0 text-info">92</p></td>
+                        <td><p class="mb-0 text-info"><?php echo ''.rand(88,92) ?></p></td>
                       </tr>
                       <tr>
                         <td><p class="mb-0 text-danger">RR</p></td>
-                        <td><p class="mb-0 text-danger">188</p></td>
+                        <td><p class="mb-0 text-danger"><?php echo ''.rand(12,20) ?></p></td>
                       </tr>
                     </tbody>
                   </table>
