@@ -45,7 +45,7 @@
                 <div class="card-body">
                   <p class="card-title text-danger">Score: 7</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table mt-2 mb-0">
                     <tbody>
                       <tr>
@@ -73,7 +73,7 @@
                 <div class="card-body">
                   <p class="card-title">Score: 2</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
@@ -101,7 +101,7 @@
                 <div class="card-body">
                   <p class="card-title">Score: 1</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
@@ -131,7 +131,7 @@
                 <div class="card-body">
                   <p class="card-title">Score: 2</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
@@ -160,7 +160,7 @@
                 <div class="card-body">
                   <p class="card-title">Score: 7</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
@@ -188,7 +188,7 @@
                 <div class="card-body">
                   <p class="card-title">Score: 7</p>
                   <p>II
-                  <img src="img/EKG" style="width:100%" alt="ICU_scene" /></p>
+                  <img src="img/EKG.png" style="width:100%" alt="ICU_scene" /></p>
                   <table class="table  mt-2 mb-0">
                     <tbody>
                       <tr>
