@@ -12,9 +12,14 @@ $data2 = array(
 $jsonData = json_encode($data, JSON_PRETTY_PRINT);
 
 
-if (isset($_GET['k']) && $_GET['k'] == 1){
-  $jsonData = json_encode($data2, JSON_PRETTY_PRINT);
-}  
+//if (isset($_GET['k']) && $_GET['k'] == 1){
+//  $jsonData = json_encode($data2, JSON_PRETTY_PRINT);
+//}  
+
+$x = rand(0,10);
+if ($x<2){
+  $jsonData = json_encode($data2, JSON_PRETTY_PRINT);  
+}
 
 //echo "<h1>Original</h1>";
 echo $jsonData;
