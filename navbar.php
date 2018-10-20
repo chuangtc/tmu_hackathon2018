@@ -5,7 +5,7 @@
     }
 ?>        
 <!-- Begin of navbar-fixed -->
-<nav class="navbar-expand-lg  navbar-light bg-light" >
+<nav class="align-middle text-monospace navbar-expand-lg navbar-light  height:500px" style="background-color: #F5F5F5;">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,15 +27,12 @@
       
       <li class="nav-item">
         <a class="nav-link" href="icuapp.php">
-          ICU-app <span class="sr-only">(current)</span></a>
+          ICU-App <span class="sr-only">(current)</span></a>
       </li>
-
-      
-
 
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="icuweb.php" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          ICU-monitoring
+          ICU-Monitoring
         </a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="icuweb.php?ts=0200">Timestamp:0200</a>

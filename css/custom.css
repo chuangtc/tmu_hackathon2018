@@ -1,0 +1,10 @@
+.navbar-collapse{
+	height: 80px; /* Just an example height*/
+	vertical-align: middle;
+	font-size: 16px;
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
+
+div{
+	font-family: Futura,Trebuchet MS,Arial,sans-serif; 
+}
