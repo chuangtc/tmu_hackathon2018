@@ -141,7 +141,7 @@
   
   <h3>ICU-Monitoring UI design: Juien Lo 羅瑞恩</h3>
   
-  <img src="img/icu_monitoring_ui.jpg" alt="img/icu_monitoring_ui.jpg"/>
+  <img src="img/icu_monitoring_ui.jpg" style = "width: 95%; max-width:600px;" alt="img/icu_monitoring_ui.jpg"/>
   
   <br/>
   <h3>Dataset:<a href="https://mimic.physionet.org/" target="_blank">MIMIC-III</a></h3>
