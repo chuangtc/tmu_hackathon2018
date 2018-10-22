@@ -27,7 +27,7 @@
     ?>
     
     
-    <h3>ICU-app ScreenShot</h3>
+    <h3>ICU-app by Kevin Chang 張愷珉</h3>
     
     <img src='img/App_Screenshot_20181020.jpg' width=300/>
     

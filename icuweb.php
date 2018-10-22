@@ -106,6 +106,26 @@ mysqli_close ($conn);
             ICU-Monitoring: 2018-10-21 Sunday
             <?php
               echo ' ' . htmlspecialchars($_GET["ts"]) ;
+              
+              if(htmlspecialchars($_GET["ts"])=='0300'){                
+                echo '<br/>UI design: Juien Lo 羅瑞恩,#visits:';
+                
+                require_once('mysql_config.php');
+                // Connects to your Database
+                $conn = new mysqli($mysql_host, $mysql_user, $mysql_password, $mysql_database);
+                /* check connection */
+                if ($conn->connect_errno) {
+                    printf("Connect failed: %s\n", $conn->connect_error);
+                    exit();
+                }
+
+                $sql = "SELECT count(*) as visit_cnt FROM tmu_hack2018.log_tbl WHERE sim_ts='0300'";
+
+                $row = mysqli_fetch_assoc(mysqli_query($conn, $sql));
+                $visit_cnt = $row['visit_cnt'];
+                echo $visit_cnt;
+                
+              }
             ?>
           </div>
         </div>
