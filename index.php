@@ -89,6 +89,9 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -116,11 +119,30 @@
       </div>
     </div>
     <div class="carousel-item">
+      <img class="d-block w-100" src="img/carousel8.jpg"  alt="Eighth slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Discussion</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carousel6.jpg"  alt="Sixth slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Idea feedback</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/carousel7.jpg"  alt="Seventh slide">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Waiting</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
       <img class="d-block w-100" src="img/carousel5_group_photo.jpg"  alt="Fifth slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Group Photo</h5>
       </div>
     </div>
+    
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
