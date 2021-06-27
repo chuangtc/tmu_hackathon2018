@@ -32,7 +32,7 @@
     <!--h1>Save Me Earlier System</h1-->
     Continuous real-time mortality prediction monitoring system in ICU
     
-    <h2>Team Name: <a href="https://ai4quant.com" target="_blank">AI4quant</a></h2>
+    <h2>Team Name: <a href="https://www.facebook.com/ai4quant/" target="_blank">AI4quant</a></h2>
     
     <h2>Team Members: </h2>
     <table border=1>
@@ -46,7 +46,7 @@
       <tr>
         <td><a href="https://chuangtc.com" target="_blank">Jason Chuang</a> </td>
         <td><a href="https://chuangtc.com" target="_blank">莊子政 </a></td>
-        <td><a href="https://ai4quant.com" target="_blank">AI4quant</a> Founder and CEO</td>
+        <td><a href="https://www.facebook.com/ai4quant/" target="_blank">AI4quant</a> Founder and CEO</td>
         <td><a href="https://github.com/chuangtc" target="_blank">Coding</a> & Data Analysis</td>
       </tr>
       <tr>
@@ -174,6 +174,8 @@
   
   <br/><br/>
   <h2>TMU x MIT Hackathon 2018 website</h2>
+  <a href="https://www.gbimonthly.com/event/hacktmu_2018/" target="_blank">https://www.gbimonthly.com/event/hacktmu_2018/</a>  
+  <br/>
   <a href="http://hack.tmu.edu.tw/2018.php" target="_blank">http://hack.tmu.edu.tw/2018.php</a>  
     
   <?php
@@ -183,4 +185,13 @@
   </div>	<!-- End of Wrap all page content -->
 	 
   </body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-25116019-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-25116019-5');
+</script>
 </html>     
